@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector</title>
+    <style>
+      /* universal selector   */
+      * {
+        margin: 0;
+      }
+      /* group selector  */
+      .holud,
+      .bold_section {
+        font-weight: bold;
+        color: blue;
+      }
+      /* group selector  */
+      #paragraph,
+      li {
+        color: red;
+      }
+      input[type="password"] {
+        color: red;
+      }
+      /* attribute selector  */
+      input[type="text"] {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Selector</h3>
+    <ul>
+      <li class="bold_section">my first list</li>
+      <li>my second list</li>
+      <li id="third_list">my third list</li>
+      <li>my fourth list</li>
+      <li class="holud">my fifth list</li>
+      <li>my sixth list</li>
+      <li>my seventh list</li>
+      <li>my eighth list</li>
+      <li>my ninth list</li>
+      <li>my tenth list</li>
+    </ul>
+    <p id="paragraph">Hello this is from paragraph tag</p>
+
+    <form action="">
+      <input type="password" placeholder="Enter your password" />
+      <input type="text" placeholder="Enter your text" />
+    </form>
+  </body>
+</html>

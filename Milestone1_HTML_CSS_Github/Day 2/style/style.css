@@ -1,0 +1,18 @@
+.blog {
+  background-color: aquamarine;
+  margin: 20px 10px 50px;
+  border: 20px solid red;
+  border-radius: 20px;
+  /* display: none; */
+  box-shadow: 20px 20px 20px blueviolet;
+}
+.external {
+  height: 500px;
+  background-image: url("hp2.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-size: cover;
+  /* background-size: contain; */
+  /* background-size: 200px; */
+}
