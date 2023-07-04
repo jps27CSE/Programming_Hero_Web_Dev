@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 60px;
+}
+
+div {
+  border: 20px solid cyan;
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
