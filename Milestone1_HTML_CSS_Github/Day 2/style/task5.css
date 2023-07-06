@@ -1,0 +1,16 @@
+.paragraph {
+  margin: 20px;
+  font-size: 20px;
+  background-color: beige;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  text-align: justify;
+  border: 20px solid cyan;
+}
+
+img {
+  border-radius: 20px;
+  margin-left: 270px;
+  box-shadow: 20px 20px 20px cyan;
+}

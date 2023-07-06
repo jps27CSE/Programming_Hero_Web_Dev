@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      label {
+        display: block;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Form</h1>
+      <section>
+        <form>
+          <label for="name"
+            >Enter Your Name:
+            <input type="text" placeholder="Name" />
+          </label>
+          <label for="email">
+            Enter Your Email:
+            <input type="email" placeholder="Email" />
+          </label>
+          <fieldset>
+            <legend>Pick one</legend>
+            <label for="vapa">
+              <input type="radio" name="pitha" id="vapa" />
+              Vapa
+            </label>
+            <label for="chitoi">
+              <input type="radio" name="pitha" id="chitoi" />Chitoi
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Pick one or more</legend>
+            <input type="checkbox" name="votta" id="shorisha" />Shorisha Votta
+          </fieldset>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
