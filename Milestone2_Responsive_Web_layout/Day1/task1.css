@@ -1,0 +1,25 @@
+.div_container {
+  display: grid;
+  height: 100vh;
+  border: 2px solid red;
+  grid-template-columns: 400px auto;
+  text-align: center;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+@media screen and (max-width: 576px) {
+  .div_container {
+    grid-template-columns: auto;
+  }
+}
